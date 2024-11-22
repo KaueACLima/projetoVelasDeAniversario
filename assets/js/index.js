@@ -6,7 +6,6 @@ const mensage = document.getElementById("mensage");
 
 displayCandles.addEventListener("click", (e) => {
   e.preventDefault();
-  console.log("Botão Mostrar Velas clicado");
   mensage.textContent = "";
   contentCandles.innerHTML = "";
 
