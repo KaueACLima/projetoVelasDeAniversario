@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--* FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+
+  <!--* CSS -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/index.css">
+
+  <title>Programa Velas de Aniversário</title>
+</head>
+
+<body>
+  <main>
+    <section class="section-image">
+      <img src="./assets/img/exercImg.jpg" alt="Imagem do exercício">
+    </section>
+    <section class="section-content">
+      <h1>Velas de Aniversário</h1>
+      <form>
+        <label for="inAge">Digite sua Idade (1 a 120 anos):</label>
+        <input type="text" id="inAge" required autofocus>
+        <div>
+          <input type="submit" id="displayCandles" value="Exibir Velas">
+          <input type="submit" id="newCandles" value="Novas Velas">
+        </div>
+      </form>
+      <div id="mensage"></div>
+      <div id="content-candles"></div>
+    </section>
+  </main>
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>
